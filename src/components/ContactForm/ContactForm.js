@@ -29,7 +29,9 @@ class ContacForm extends Component {
           contact.number === number
       )
     ) {
-      alert(`Contact with such ${name} or ${number} is already in Phonebook`);
+      alert(
+        `Contact with such ${name} name or ${number} number is already in Phonebook`
+      );
       this.reset();
       return;
     }
