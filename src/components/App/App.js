@@ -34,9 +34,6 @@ class App extends Component {
     if (nextContacts !== prevContacts) {
       localStorage.setItem("contact", JSON.stringify(nextContacts));
     }
-
-    console.log(nextContacts);
-    console.log(prevContacts);
   }
 
   addContact = ({ name, number }) => {

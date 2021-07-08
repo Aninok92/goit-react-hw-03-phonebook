@@ -1,10 +1,10 @@
 .section {
   width: 500px;
   margin: 0 auto 10px;
-  border: 1px solid var(--black-color);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 20px;
-  background: var(--linear-gradient);
+  background: var(--primary-white-color);
+  border-radius: 10px;
 }
 
 .title {
